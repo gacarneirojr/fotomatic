@@ -231,8 +231,7 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5rem;
   background-color: #f3f3f3;
-
-
+  flex-wrap: wrap;
 }
 
 .feature {
@@ -276,9 +275,9 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 500px) {
   #features-section {
-    flex-flow: column;
+    flex-direction: column;
     padding: 0;
   }
 
@@ -410,7 +409,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
